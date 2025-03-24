@@ -7,9 +7,11 @@ Creates a GitHub workflow file from the list of test files.
 
    Each test is also expected to have a double comment with a human-readable description, in my case it's in Latvian (then Latvian-only characters will be substituted for plain Latin; change the character set in the script to fit Your needs, it occurs in two fragments of the code).
 
-2. Run `./make.workflow.sh`
+   After You create the classroom.yml file, be sure to adjust the timeouts and max-scores to suit Your testing plan.
 
-3. If You see it to be fit, use `./runtests.sh` to launch all the tests sequentially (edit the script if You need to).
+3. Run `./make.workflow.sh`
+
+4. If You see it to be fit, use `./runtests.sh` to launch all the tests sequentially (edit the script if You need to).
 
 Requirements:
 * bash (obviously)
